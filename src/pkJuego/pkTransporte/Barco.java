@@ -2,7 +2,7 @@ package pkJuego.pkTransporte;
 
 import pkJuego.pkPersonaje.Personaje;
 
-public class Barco {
+public class Barco extends MedioTransporte {
 
     private LadoDelRio ladoActual;
     private Personaje pasajero;
